@@ -1,0 +1,216 @@
+<html>
+  <head>
+    <title>Profile | SEN28</title>
+  </head>
+  <style type="text/css">
+    body {
+      background-image: url("Images/Blue2.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+    }
+    #blue_bar {
+      height: 50px;
+      background-color: rgba(6, 102, 158, 0.76);
+      color: #d9dfeb;
+    }
+    #search_box {
+      width: 400px;
+      height: 20px;
+      border-radius: 5px;
+      border: none;
+      padding: 4px;
+      font-size: 14px;
+      background-image: url("search.png");
+      background-repeat: no-repeat;
+      background-position: right;
+    }
+    #pfp {
+      width: 150px;
+      margin-top: -130px;
+      border-radius: 75px;
+      border: solid 2px white;
+    }
+    #menu {
+      width: 100px;
+      display: inline-block;
+      margin: 2px;
+    }
+    #friends {
+      background-color: white;
+      min-height: 400px;
+      margin-top: 20px;
+      color: #aaa;
+      padding: 8px;
+    }
+    #friends_bar {
+      clear: both;
+      font-size: 12px;
+      font-weight: bold;
+      color: rgba(6, 102, 158, 0.76);
+    }
+    #friendspfp {
+      width: 75px;
+      float: left;
+      margin: 8px;
+    }
+    textarea {
+      width: 100%;
+      border: none;
+      font-family: tahoma;
+      font-size: 14px;
+      height: 70px;
+    }
+    #post1 {
+      float: right;
+      background-color: rgba(6, 102, 158, 0.76);
+      border: none;
+      color: white;
+      padding: 2px;
+      font-size: 14px;
+      border-radius: 4px;
+      width: 50px;
+    }
+    #post_bar {
+      margin-top: 20px;
+      background-color: white;
+      padding: 10px;
+    }
+    #post2 {
+      padding: 4px;
+      font-size: 16px;
+      display: flex;
+      margin-bottom: 20px;
+    }
+  </style>
+  <body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+    <br />
+    <!--top bar-->
+    <div id="blue_bar">
+      <div style="width: 800px; margin: auto; font-size: 30px">
+        SEN28 &nbsp &nbsp
+        <img src="Man.jpg" alt="pfp" style="width: 50px; float: right" />
+        <input type="text" id="search_box" placeholder="Search" />
+      </div>
+      <!--cover area-->
+      <div
+        style="width: 800px; margin: auto; min-height: 400px; margin-top: 10px"
+      >
+        <div
+          style="background-color: white; text-align: center; color: #405d9b"
+        >
+          <img src="mountain.jpg" style="width: 100%" />
+          <img src="Man.jpg" id="pfp" />
+          <br />
+          <div style="font-size: 20px">John Ichebi</div>
+          <br />
+          <div id="menu">Timeline</div>
+          <div id="menu">About</div>
+          <div id="menu">Friends</div>
+          <div id="menu">Photos</div>
+          <div id="menu">Settings</div>
+        </div>
+
+        <!--Below cover area-->
+        <div style="display: flex; color: black">
+          <!--Friend area-->
+          <div style="min-height: 400px; flex: 1">
+            <div id="friends">
+              Friends<br />
+
+              <div id="friends_bar">
+                <img src="selfie.jpg" id="friendspfp" />
+                <br />
+                Gloria Adeyemi
+              </div>
+
+              <div id="friends_bar">
+                <img src="user4.jpg" id="friendspfp" />
+                <br />
+                Justin Jude
+              </div>
+
+              <div id="friends_bar">
+                <img src="user2.jpg" id="friendspfp" />
+                <br />
+                Santi Lupovnga
+              </div>
+
+              <div id="friends_bar">
+                <img src="user1.jpg" id="friendspfp" />
+                <br />
+                Baltasar Ekonga
+              </div>
+            </div>
+          </div>
+
+          <!--posts area-->
+          <div
+            style="
+              min-height: 400px;
+              flex: 2.5;
+              padding: 20px;
+              padding-right: 0px;
+            "
+          >
+            <div
+              style="
+                border: solid thin #aaa;
+                padding: 10px;
+                background-color: white;
+              "
+            >
+              <textarea placeholder="What's on your mind?"></textarea>
+              <input id="post1" type="Submit" value="Post" />
+              <br />
+              <br />
+            </div>
+
+            <!--posts-->
+            <div id="post_bar">
+              <!--post 1-->
+              <div id="post2">
+                <div>
+                  <img
+                    src="user1.jpg"
+                    style="width: 75px; margin-right: 4px; padding: 4px"
+                  />
+                </div>
+                <div>
+                  <div style="font-weight: bold; color: #405d9b">
+                    Baltasar Ekonga
+                  </div>
+                  Please, where are we to submit the MTS101 assignments?? I'm
+                  very hungry and I can't find Wesy!!
+                  <br /><br />
+                  <a href="">Like</a> . <a href="">Comment</a> .
+                  <span style="color: #999">Febuary 17 2025</span>
+                </div>
+              </div>
+              <!--post 2-->
+              <div id="post2">
+                <div>
+                  <img
+                    src="user3.jpg"
+                    style="width: 75px; margin-right: 4px; padding: 4px"
+                  />
+                </div>
+                <div>
+                  <div style="font-weight: bold; color: #405d9b">
+                    Faith George
+                  </div>
+                  Everyone!! There is an MEE tutorial taking place at Hilltop by
+                  5 pm today, please try to attend.
+                  <br /><br />
+                  <a href="">Like</a> . <a href="">Comment</a> .
+                  <span style="color: #999">Febuary 17 2025</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
